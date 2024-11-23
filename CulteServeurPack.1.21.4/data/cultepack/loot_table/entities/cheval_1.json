@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warden_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Cheval Invocable\",\"italic\":false,\"color\":\"gold\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Tue moi si tu veux !\",\"italic\":false}]",
+								  "[{\"text\":\"Mais ne m abandonne pas !\",\"italic\":false}]",
+								  "[{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"Lorsqu il meurt il\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"vous donne à nouveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"son oeuf.\",\"italic\":true,\"color\":\"dark_gray\"}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+										"cheval"
+									]
+								   },
+								"minecraft:entity_data": {
+								  "DeathLootTable": "cultepack:entities/cheval_1",
+								  "id": "horse",
+								  "Variant": 0,
+								  "SaddleItem": {
+									"id": "saddle",
+									"Count": 1
+								  },
+								  "Tame": true,
+								  "CustomName": "[{\"text\":\"Fidèle Destrier\",\"color\":\"gold\"}]",
+								  "CustomNameVisible": true,
+								  "Health": 10,
+								  "PersistenceRequired": true,
+								  "Tags": [
+									"cheval_1"
+								  ],
+								  "attributes": [
+									{
+									  "id": "jump_strength",
+									  "base": 1
+									},
+									{
+									  "id": "movement_speed",
+									  "base": 0.3
+									},
+									{
+									  "id": "max_health",
+									  "base": 10
+									}
+								  ]
+								}
+							  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

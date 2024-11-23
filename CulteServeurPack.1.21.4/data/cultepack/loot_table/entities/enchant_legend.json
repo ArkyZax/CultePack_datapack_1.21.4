@@ -1,0 +1,247 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+               "minecraft:custom_model_data": {
+									"strings": [
+									  "livre_base"
+									]
+								  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:poison_res": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "livre_base"
+                    ]
+                    },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:fire_res": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "livre_base"
+                    ]
+                    },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:force": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "livre_base"
+                    ]
+                    },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:jump": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "livre_base"
+                    ]
+                    },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:nocturne": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+									"strings": [
+									  "livre_base"
+									]
+								  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:resistance": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "livre_base"
+                    ]
+                    },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Bague\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:speed": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "strings": [
+                      "livre_base"
+                    ]
+                    },
+                  "minecraft:lore": [
+                    "[{\"text\":\"-Arc\"}]"
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "cultepack:fleche_foudre": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+     
+
+  }
+         

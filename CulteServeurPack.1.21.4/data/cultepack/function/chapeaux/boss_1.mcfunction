@@ -1,0 +1,1 @@
+give @s minecraft:carved_pumpkin[custom_name='[{"text":"Chapeau En Peau De Pigeon","italic":false,"color":"light_purple"}]',lore=['[{"text":"Cadeau pour avoir tué","italic":true,"color":"aqua"}]','[{"text":"le Gros Pigeon","italic":true,"color":"aqua"}]'],custom_model_data={strings:["phantom_hide"]}] 1

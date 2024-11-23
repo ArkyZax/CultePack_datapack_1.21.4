@@ -1,0 +1,87 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+			  "min": 1,
+			  "max": 1
+			},
+			"entries": [
+			  {
+				"weight" : 1,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/map"
+			  },
+			  {
+				"weight" : 6,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/vide"
+			  }
+			]
+		  },
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:packed_ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:blue_ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

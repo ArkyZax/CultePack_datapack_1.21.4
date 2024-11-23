@@ -1,0 +1,2 @@
+give @p carrot_on_a_stick[custom_name='[{"text":"Sceptre ","italic":false,"color":"gold"},{"text":"d Invocation","color":"green"},{"text":" : "},{"text":"Iron Golem","underlined":true,"color":"white"}]',lore=['[{"text":"Invoque un iron golem","italic":false,"color":"aqua"}]','[{"text":"pour vous aidez.","italic":false,"color":"aqua"}]'],custom_model_data={strings:["invocation_golem"]},custom_data={tag:["gun_4"]}] 1
+title @p title "Sceptre d'Invocation : Golem"

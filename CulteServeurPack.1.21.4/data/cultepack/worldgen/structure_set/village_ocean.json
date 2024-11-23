@@ -1,0 +1,19 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:village_ocean",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 2019195712,
+        "exclusion_zone": {
+			"other_set": "cultepack:bateau_1",
+			"chunk_count": 4
+		},
+		
+		"spacing": 32,
+		"separation": 20
+	}
+}

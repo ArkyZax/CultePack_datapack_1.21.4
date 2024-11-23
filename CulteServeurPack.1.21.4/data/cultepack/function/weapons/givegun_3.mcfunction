@@ -1,0 +1,2 @@
+give @p carrot_on_a_stick[custom_name='[{"text":"Sceptre de ","italic":false,"color":"gold"},{"text":"Téléportation","color":"light_purple"}]',lore=['[{"text":"Lance ou Ender Pearl","italic":false,"color":"aqua"}]','[{"text":"dans la direction où le","italic":false,"color":"aqua"}]','[{"text":"joueur regarde.","italic":false,"color":"aqua"}]'],custom_model_data={strings:["tp"]},custom_data={tag:["gun_3"]}] 1
+title @p title "Sceptre de Téléportation"

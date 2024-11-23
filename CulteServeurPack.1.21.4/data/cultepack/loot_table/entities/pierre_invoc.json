@@ -1,0 +1,185 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{	
+    "rolls": 1,
+    "entries": [
+        {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:popped_chorus_fruit",
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components":{
+                        "minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★\",\"italic\":false,\"color\":\"gold\"}]",
+                        "minecraft:lore": [
+                          "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+                          "[{\"text\":\"\",\"italic\":false}]",
+                          "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                          "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                          "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                          "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+                        ],
+                        "minecraft:custom_model_data": {
+                          "strings": [
+                              "rune_invoc"
+                          ]
+                         },
+                        "minecraft:custom_data": {
+                          "Tags": [
+                            "pierre_invoc_1"
+                          ]
+                        }
+                      }
+                }
+            ]
+        }
+    ]
+},
+{
+    "rolls": 1,
+    "entries": [
+        {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:popped_chorus_fruit",
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components":{
+                        "minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★★\",\"italic\":false,\"color\":\"gold\"}]",
+                        "minecraft:lore": [
+                          "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+                          "[{\"text\":\"\",\"italic\":false}]",
+                          "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                          "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                          "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                          "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+                        ],
+                        "minecraft:custom_model_data": {
+                          "strings": [
+                              "rune_invoc"
+                          ]
+                         },
+                        "minecraft:custom_data": {
+                          "Tags": [
+                            "pierre_invoc_2"
+                          ]
+                        }
+                      }
+                }
+            ]
+        }
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:popped_chorus_fruit",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components":{
+                            "minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★★★\",\"italic\":false,\"color\":\"gold\"}]",
+                            "minecraft:lore": [
+                              "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+                              "[{\"text\":\"\",\"italic\":false}]",
+                              "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                              "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                              "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                              "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+                            ],
+                            "minecraft:custom_model_data": {
+								    	        "strings": [
+									                "rune_invoc"
+								            	]
+								             },
+                            "minecraft:custom_data": {
+                              "Tags": [
+                                "pierre_invoc_3"
+                              ]
+                            }
+                          }
+                    }
+                ]
+            }
+          ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+                        {
+							"function": "minecraft:set_components",
+							"components":{
+                                "minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★★★★\",\"italic\":false,\"color\":\"gold\"}]",
+                                "minecraft:lore": [
+                                  "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+                                  "[{\"text\":\"\",\"italic\":false}]",
+                                  "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                                  "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                                  "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                                  "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+                                ],
+                                "minecraft:custom_model_data": {
+                                  "strings": [
+                                      "rune_invoc"
+                                  ]
+                                 },
+                                "minecraft:custom_data": {
+                                  "Tags": [
+                                    "pierre_invoc_4"
+                                  ]
+                                }
+                              }
+						}
+					]
+				}
+              ]
+            },
+            {
+                "rolls": 1,
+                "entries": [
+                    {
+                        "type": "minecraft:item",
+                        "weight": 9,
+                        "name": "minecraft:popped_chorus_fruit",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_components",
+                                "components":{
+                                    "minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★★★★★\",\"italic\":false,\"color\":\"gold\"}]",
+                                    "minecraft:lore": [
+                                      "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+                                      "[{\"text\":\"\",\"italic\":false}]",
+                                      "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                                      "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                                      "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+                                      "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+                                    ],
+                                    "minecraft:custom_model_data": {
+                                      "strings": [
+                                          "rune_invoc"
+                                      ]
+                                     },
+                                    "minecraft:custom_data": {
+                                      "Tags": [
+                                        "pierre_invoc_5"
+                                      ]
+                                    }
+                                  }
+                            }
+                        ]
+                    }
+                  ]
+                }
+  ]   
+}

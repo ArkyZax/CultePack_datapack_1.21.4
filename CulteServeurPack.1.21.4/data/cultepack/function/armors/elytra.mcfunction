@@ -1,0 +1,4 @@
+recipe take @s cultepack:armoredelytra
+advancement revoke @s only cultepack:armorelytra
+give @s elytra[custom_name='[{"text":"Netherite Elytra","italic":false,"color":"yellow"}]',lore=['[{"text":"Elytra avec les stats","italic":false}]','[{"text":"du plastron en netherite","italic":false}]'],attribute_modifiers=[{type:"armor_toughness",operation:"add_value",slot:"chest",id:"generic.armor_toughness",amount:3},{type:"armor",operation:"add_value",slot:"chest",id:"generic.armor",amount:8},{type:"knockback_resistance",operation:"add_value",slot:"chest",id:"generic.knockback_resistance",amount:0.1}]] 1
+clear @s knowledge_book

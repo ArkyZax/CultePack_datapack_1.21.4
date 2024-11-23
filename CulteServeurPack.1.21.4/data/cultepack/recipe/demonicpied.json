@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"NSN",
+		"WAW",
+		"NSN"
+	],
+	"key": {
+		"N": "minecraft:netherite_ingot",
+		"S": "minecraft:nether_star",
+		"W": "minecraft:wither_skeleton_skull",
+		"A": "minecraft:netherite_boots"
+	},
+	"result": {
+		"id": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

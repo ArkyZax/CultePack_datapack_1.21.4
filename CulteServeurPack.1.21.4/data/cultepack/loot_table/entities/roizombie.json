@@ -1,0 +1,179 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+					    {
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Épée Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Épée surpuissante,\",\"italic\":false}]",
+								  "[{\"text\":\"forgé depuis l'End\",\"italic\":false}]"
+								],
+								"minecraft:attribute_modifiers": [
+								  {
+									"type": "attack_damage",
+									"slot": "mainhand",
+									
+									"operation": "add_value",
+									"id": "generic.attack_damage",
+									"amount": 16
+								  },
+								  {
+									"type": "attack_speed",
+									"slot": "mainhand",
+									
+									"operation": "add_value",
+									"id": "generic.attack_speed",
+									"amount": 3.6
+								  }
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+										"demoniaque"
+									]
+								   }
+							  }
+						}
+					]
+				}
+			]
+		},
+		
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Couronne du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Roi Zombie\",\"color\":\"dark_red\"}]",
+								"minecraft:custom_model_data": {
+									"strings": [
+										"crown"
+									]
+								   }
+							  }
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:carved_pumpkin",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Tête du\",\"italic\":false,\"color\":\"gold\"},{\"text\":\" \"},{\"text\":\"Roi Zombie\",\"color\":\"dark_red\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Tête de Boss. Peut être\",\"italic\":false}]",
+								  "[{\"text\":\"utilisée comme chapeau.\",\"italic\":false}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+										"zombie_mutant_tete"
+									]
+								   }
+							  }
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:netherite_ingot",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 5,
+								"max": 12
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:nether_star"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:phantom_membrane",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Rune d'Armure\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
+								  "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
+								  "[{\"text\":\"l'armure Démoniaque.\",\"italic\":false}]",
+								  "[{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"Donne à la pièce d'armure :\",\"italic\":true,\"color\":\"gray\"}]",
+								  "[{\"text\":\"-Protection X\",\"italic\":true,\"color\":\"gray\"}]",
+								  "[{\"text\":\"-Unbrealing X\",\"italic\":true,\"color\":\"gray\"}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+										"piece_armure"
+									]
+								   },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"upgrader_1"
+								  ]
+								}
+							  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

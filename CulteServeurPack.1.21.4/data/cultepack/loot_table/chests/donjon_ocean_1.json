@@ -1,0 +1,147 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+			  "min": 1,
+			  "max": 1
+			},
+			"entries": [
+			  {
+				"weight" : 1,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/map"
+			  },
+			  {
+				"weight" : 6,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/vide"
+			  }
+			]
+		  },
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "minecraft:packed_ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 16,
+					"name": "minecraft:blue_ice",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "livre_base"
+									]
+								  },
+								"minecraft:lore": [
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:force": 1
+							  }
+							}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Faux De Glace\",\"italic\":false,\"color\":\"aqua\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Elle immobilise vos\",\"italic\":false}]",
+								  "[{\"text\":\"ennemis dans la neige\",\"italic\":false}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "faucheuse"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"ice_sword"
+								  ]
+								}
+							  }
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+							  "cultepack:ice_attack": 1
+							},
+							"add": true
+						  }
+					]
+				}
+			]
+		}
+	]
+}

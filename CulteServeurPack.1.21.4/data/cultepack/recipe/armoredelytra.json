@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		
+			"minecraft:netherite_chestplate",
+			"minecraft:elytra"
+		
+	],
+	"result": {
+		"id": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

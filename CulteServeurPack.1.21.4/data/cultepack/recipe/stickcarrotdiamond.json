@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"TST",
+		"SCS",
+		"TST"
+	],
+	"key": {
+		"T": "minecraft:tnt",
+		"S": "minecraft:nether_star",
+		"C": "minecraft:carrot_on_a_stick"
+	},
+	"result": {
+		"id": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

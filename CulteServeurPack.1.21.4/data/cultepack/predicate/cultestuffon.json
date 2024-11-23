@@ -1,0 +1,48 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"type": "minecraft:player",
+		"type_specific": {
+			"type": "player"
+		},
+		"equipment": {
+			"chest": {
+				"components": {
+					"minecraft:custom_data": {
+					  "Tags": [
+						  "cultestuff"
+						]
+					}
+				  }
+			},
+			"head": {
+				"components": {
+					"minecraft:custom_data": {
+					  "Tags": [
+						  "cultestuff"
+						]
+					}
+				  }
+			},
+			"legs": {
+				"components": {
+					"minecraft:custom_data": {
+					  "Tags": [
+						  "cultestuff"
+						]
+					}
+				  }
+			},
+			"feet": {
+				"components": {
+					"minecraft:custom_data": {
+					  "Tags": [
+						  "cultestuff"
+						]
+					}
+				  }
+			}
+		}
+	}
+}

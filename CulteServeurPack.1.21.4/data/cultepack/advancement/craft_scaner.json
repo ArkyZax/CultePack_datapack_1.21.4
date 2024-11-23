@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"armorelytra": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cultepack:scaner_1"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:outils/give_scaner_chien"
+	}
+}

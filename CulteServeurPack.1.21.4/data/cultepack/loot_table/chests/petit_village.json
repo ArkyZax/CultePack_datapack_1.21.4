@@ -1,0 +1,115 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+        "entries": [
+          {
+            "weight" : 1,
+            "type": "minecraft:loot_table",
+            "value": "cultepack:entities/map"
+          },
+          {
+            "weight" : 6,
+            "type": "minecraft:loot_table",
+            "value": "cultepack:entities/vide"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 4,
+          "max": 6
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cherry_sapling",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 10,
+                  "max": 30
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 8,
+                  "max": 15
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:popped_chorus_fruit",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components":{
+                  "minecraft:custom_name": "[{\"text\":\"Cristal d'Aimant\",\"italic\":false,\"color\":\"gray\"}]",
+                  "minecraft:lore": [
+                    "[{\"text\":\"S'utilise à la forge\",\"italic\":false}]",
+                    "[{\"text\":\"de l'End pour améliorer\",\"italic\":false}]",
+                    "[{\"text\":\"le \",\"italic\":false},{\"text\":\"Sceptre de\",\"color\":\"gold\"},{\"text\":\" \",\"color\":\"dark_purple\"},{\"text\":\"Base\",\"color\":\"light_purple\"}]"
+                  ],
+                  "minecraft:custom_model_data": {
+									"strings": [
+									  "cristal_aimant"
+									]
+								  },
+                  "minecraft:custom_data": {
+                    "Tags": [
+                      "cristal_item"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:crossbow",
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30
+              }
+            ]
+          
+          }
+        ]
+      }
+    ]
+  }
+  

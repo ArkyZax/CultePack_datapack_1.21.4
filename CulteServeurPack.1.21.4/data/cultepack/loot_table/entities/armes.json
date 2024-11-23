@@ -1,0 +1,213 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Épée Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Épée surpuissante,\",\"italic\":false}]",
+								  "[{\"text\":\"forgé depuis l'End\",\"italic\":false}]"
+								],
+								"minecraft:attribute_modifiers": [
+								  {
+									"type": "attack_damage",
+									"slot": "mainhand",
+									
+									"operation": "add_value",
+									"id": "generic.attack_damage",
+									"amount": 16
+								  },
+								  {
+									"type": "attack_speed",
+									"slot": "mainhand",
+									
+									"operation": "add_value",
+									"id": "generic.attack_speed",
+									"amount": 3.6
+								  }
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "demoniaque"
+									]
+								  }
+							  }
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Marteau Démoniaque\",\"italic\":false,\"color\":\"dark_red\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Marteau Légendaire,\",\"italic\":false}]",
+								  "[{\"text\":\"forgé depuis l'End\",\"italic\":false}]"
+								],
+								"minecraft:attribute_modifiers": [
+								  {
+									"type": "attack_speed",
+									"slot": "mainhand",
+							
+									"operation": "add_value",
+									"id": "generic.attack_speed",
+									"amount": -3.6
+								  },
+								  {
+									"type": "attack_damage",
+									"slot": "mainhand",
+							
+									"operation": "add_value",
+									"id": "generic.attack_damage",
+									"amount": 32
+								  }
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "marteau"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": "marteau_demonic"
+								}
+							  }
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:enchantments": {
+								  "flame": 1,
+								  "infinity": 1,
+								  "mending": 1,
+								  "power": 6,
+								  "unbreaking": 6
+								},
+								"minecraft:custom_name": "[{\"text\":\"Arc Démoniaque\",\"italic\":false,\"color\":\"dark_red\",\"underlined\":false,\"bold\":false}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Arc du culte\",\"italic\":true,\"color\":\"yellow\"}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "arc"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "tag": "[cultestuff]"
+								}
+							  }
+						}
+				]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Épée empoisonnée\",\"italic\":false,\"color\":\"green\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Elle donne à vos\",\"italic\":false}]",
+								  "[{\"text\":\"ennemis un effet poison \",\"italic\":false}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "eternalsword"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"poison_sword"
+								  ]
+								}
+							  }
+
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+							  "cultepack:poison_attack": 1
+							},
+							"add": true
+						  }
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Faux De Glace\",\"italic\":false,\"color\":\"aqua\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Elle immobilise vos\",\"italic\":false}]",
+								  "[{\"text\":\"ennemis dans la neige\",\"italic\":false}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "faucheuse"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"ice_sword"
+								  ]
+								}
+							  }
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+							  "cultepack:ice_attack": 1
+							},
+							"add": true
+						  }
+					]
+				} 	
+			]
+		}
+    ]
+}

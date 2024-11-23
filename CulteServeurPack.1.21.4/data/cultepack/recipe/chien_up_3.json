@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"IBI",
+		"III"
+	],
+	"key": {
+		"B": "minecraft:bone",
+		"I": "minecraft:diamond_block"
+	},
+	"result": {
+		"id": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

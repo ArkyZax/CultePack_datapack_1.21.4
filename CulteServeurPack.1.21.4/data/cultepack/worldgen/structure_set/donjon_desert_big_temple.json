@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "cultepack:donjon_desert_big_temple",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "cultepack:donjon_desert_temple",
+			"chunk_count": 5
+		},
+		"salt": 150343121,
+		"spacing": 35,
+		"separation": 21
+	}
+}

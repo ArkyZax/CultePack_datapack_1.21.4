@@ -1,0 +1,27 @@
+{
+	"criteria": {
+	  "": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "components": {
+				"minecraft:custom_data": {
+					"Tags": [
+						"pierre_invoc_3"
+					  ]
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	}
+  
+  ,
+
+"rewards": {
+    "function": "cultepack:events/advc_invoc_give"
+}
+}
+    

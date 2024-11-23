@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "cultepack:bague_enchant"
+			}
+		}
+	},
+	"rewards": {
+		"function": "cultepack:outils/give_bague_enchant"
+	}
+}

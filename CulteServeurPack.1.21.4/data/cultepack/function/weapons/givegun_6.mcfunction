@@ -1,0 +1,2 @@
+give @p carrot_on_a_stick[custom_name='[{"text":"Sceptre ","italic":false,"color":"gold"},{"text":"d Aimant","color":"gray"}]',lore=['[{"text":"Rassemble tout les items","italic":false,"color":"aqua"}]','[{"text":"à moins de 10 blocks.","italic":false,"color":"aqua"}]'],custom_model_data={strings:["aimant"]},custom_data={tag:["gun_6"]}] 1
+title @p title "Sceptre d'Aimant'"

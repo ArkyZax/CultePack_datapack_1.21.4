@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CRC",
+      "AIA",
+      "AIA"
+    ],
+    "key": {
+      "C": "minecraft:copper_ingot",
+      "R": "minecraft:redstone",
+      "I": "minecraft:iron_ingot",
+      "A":  "stone_button"
+    },
+    "result": {
+      "id": "minecraft:knowledge_book",
+      "count": 1
+    }
+  }
+  

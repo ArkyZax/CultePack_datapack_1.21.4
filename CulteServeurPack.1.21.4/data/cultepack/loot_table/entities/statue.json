@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warden_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Snoop Statue\",\"italic\":false,\"color\":\"aqua\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"Clique droit pour la poser.\",\"italic\":true,\"color\":\"yellow\"}]",
+								  "[{\"text\":\"Sneak dessus pour la ramasser.\",\"italic\":true,\"color\":\"yellow\"}]",
+								  "[{\"text\":\"S'anime à moins de 10 blocs.\",\"italic\":true,\"color\":\"yellow\"}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+										"statue_og"
+									]
+								   },
+								"minecraft:entity_data": {
+								  "id": "armor_stand",
+								  "Invisible": true,
+								  "DisabledSlots": 4144959,
+								  "Tags": [
+									"statue"
+								  ],
+								  "ArmorItems": [
+									{},
+									{},
+									{},
+									{
+									  "id": "carved_pumpkin",
+									  "components":{
+										"custom_model_data":{
+											"strings": [
+												"statue_og"
+											]
+										   }
+									  },
+									  "Count": 1
+									}
+								  ],
+								  "ArmorDropChances": [
+									0,
+									0,
+									0,
+									0
+								  ]
+								}
+							  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

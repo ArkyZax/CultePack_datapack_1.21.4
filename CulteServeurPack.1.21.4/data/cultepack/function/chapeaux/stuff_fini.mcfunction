@@ -1,0 +1,1 @@
+give @s minecraft:carved_pumpkin[custom_name='[{"text":"Chapeau Démoniaque","italic":false,"color":"light_purple"}]',lore=['[{"text":"Cadeau pour avoir","italic":true,"color":"aqua"}]','[{"text":"fini le stuff","italic":true,"color":"aqua"}]','[{"text":"démoniaque !","italic":true,"color":"aqua"}]'],custom_model_data={strings:["warden_hide_hat"]}] 1

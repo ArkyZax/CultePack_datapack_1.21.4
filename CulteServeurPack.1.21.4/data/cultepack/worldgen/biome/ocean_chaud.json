@@ -1,0 +1,66 @@
+{
+	"temperature": 1.5,
+	"downfall": 0.2,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 9746943,
+		"fog_color": 12638463,
+		"water_color": 7708917,
+		"water_fog_color": 460751,
+		"grass_color": 2752340,
+		"foliage_color": 16774912
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:drowned",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"water_creature": [
+			{
+			  "type": "minecraft:squid",
+			  "weight": 10,
+			  "minCount": 4,
+			  "maxCount": 4
+			},
+			{
+			  "type": "minecraft:dolphin",
+			  "weight": 1,
+			  "minCount": 1,
+			  "maxCount": 2
+			}
+		  ],
+		  "water_ambient": [
+			{
+			  "type": "minecraft:pufferfish",
+			  "weight": 15,
+			  "minCount": 1,
+			  "maxCount": 3
+			},
+			{
+			  "type": "minecraft:tropical_fish",
+			  "weight": 25,
+			  "minCount": 8,
+			  "maxCount": 8
+			}
+		  ]
+	},
+	"spawn_costs": {},
+	"carvers": [],
+	"features": [
+        [
+		"cultepack:grass_extension"
+        ], 
+		["minecraft:grass_bonemeal",
+        "minecraft:patch_grass_jungle",
+		"minecraft:seagrass_deep_warm",
+		"minecraft:sea_pickle",
+		"minecraft:warm_ocean_vegetation"
+		
+        ],
+		["cultepack:bedrock"]
+        ]
+}

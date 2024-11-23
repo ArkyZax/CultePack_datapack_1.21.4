@@ -1,0 +1,10 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+	  "structures": "cultepack:portail",
+	  "fluid": {
+		"fluids": "#minecraft:water"
+	  }
+	}
+  }
+  

@@ -1,0 +1,56 @@
+{
+    "temperature": 2,
+    "downfall": 0,
+    "has_precipitation": false,
+    "effects": {
+      "sky_color": 9089023,
+      "fog_color": 15989630,
+      "water_color": 8242935,
+      "water_fog_color": 2718719,
+      "grass_color": 10347037,
+      "foliage_color": 10417204
+    },
+    "spawners": {
+      "monster": [
+			{
+				"type": "minecraft:husk",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 3
+			}
+    ]
+
+
+    },
+    "spawn_costs": {},
+    "carvers": [
+     
+        "minecraft:canyon",
+        "minecraft:canyon"
+      ],
+    "features": [
+        [],
+        ["cultepack:desert_1",
+          "cultepack:desert_2",
+          "cultepack:desert_3"
+        ],
+        [ 
+          "cultepack:desert_4"
+         
+        ],
+        [
+          "cultepack:desert_5",
+          "minecraft:patch_sugar_cane_desert",
+          "minecraft:patch_grass_jungle",
+          "minecraft:patch_dead_bush"
+        ],
+        [
+          "minecraft:dripstone_cluster",
+          "minecraft:large_dripstone",
+          "minecraft:pointed_dripstone"
+        ],
+
+        ["cultepack:bedrock"]
+    ]
+  }
+  

@@ -1,0 +1,194 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+			  "min": 1,
+			  "max": 1
+			},
+			"entries": [
+			  {
+				"weight" : 1,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/map"
+			  },
+			  {
+				"weight" : 6,
+				"type": "minecraft:loot_table",
+				"value": "cultepack:entities/vide"
+			  }
+			]
+		  },
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "livre_base"
+									]
+								  },
+								"minecraft:lore": [
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:nocturne": 1
+							  }
+							}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:gilded_blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 7
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:enchanted_golden_apple",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:netherite_scrap",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★\",\"italic\":false,\"color\":\"gold\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+								  "[{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "rune_invoc"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"pierre_invoc_1"
+								  ]
+								}
+							  }
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:popped_chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"minecraft:custom_name": "[{\"text\":\"Pierre d'Invocation ★★\",\"italic\":false,\"color\":\"gold\"}]",
+								"minecraft:lore": [
+								  "[{\"text\":\"Contient une âme\",\"italic\":false}]",
+								  "[{\"text\":\"\",\"italic\":false}]",
+								  "[{\"text\":\"Utilisée à un Autel\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"sacrificiel, libère un\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"puissant boss au niveau\",\"italic\":true,\"color\":\"dark_gray\"}]",
+								  "[{\"text\":\"de la pierre\",\"italic\":true,\"color\":\"dark_gray\"}]"
+								],
+								"minecraft:custom_model_data": {
+									"strings": [
+									  "rune_invoc"
+									]
+								  },
+								"minecraft:custom_data": {
+								  "Tags": [
+									"pierre_invoc_2"
+								  ]
+								}
+							  }
+						}
+					]
+				}
+			]
+		}
+	]
+}

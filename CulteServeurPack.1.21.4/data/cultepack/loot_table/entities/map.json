@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "cultepack:portail",
+              "decoration": "banner_purple",
+              "zoom": 1,
+              "skip_existing_chunks": false
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components":{
+            "minecraft:custom_name": "[{\"color\":\"red\",\"text\":\"Map de Portail\"}]",
+            "minecraft:lore":[
+            "[{\"color\":\"yellow\",\"text\":\"Elle permet de retrouver votre\"}]",
+            "[{\"color\":\"yellow\",\"text\":\"chemin jusqu\\'au spawn.\"}]"
+          ]
+        }
+      }
+      ]
+    }
+  ]
+}
