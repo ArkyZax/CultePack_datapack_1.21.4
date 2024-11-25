@@ -1,4 +1,5 @@
-execute as @s at @s rotated ~3 ~ run tp ~ ~ ~
+
+execute as @s run rotate @s ~3 ~ 
 
 execute as @s at @s run particle minecraft:item{item:emerald} ^0.875 ^3.5 ^-0.375 0 0 0 0 1 normal @a
 
