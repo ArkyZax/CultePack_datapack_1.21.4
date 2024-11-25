@@ -15,6 +15,70 @@
 			  }
 			]
 		  },
+		  {
+			"rolls": {
+			  "min": 1,
+			  "max": 2
+			},
+			"entries": [
+			  {
+				"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 33
+							}
+						}
+					]
+			  },
+			  {
+				"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:crying_obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 9
+							}
+						}
+					]
+			  },
+			  {
+				"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:gilded_blackstone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 7
+							}
+						}
+					]
+			  },
+			  {
+				"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:experience_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 42
+							}
+						}
+					]
+			  }
+			]
+		  },
 		{
 			"rolls": {
 			  "min": 1,
@@ -66,8 +130,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 5,
-								"max": 10
+								"min": 2,
+								"max": 6
 							}
 						}
 					]
@@ -246,7 +310,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 2,
 					"name": "minecraft:nether_star",
 					"functions": [
 						{

@@ -11,7 +11,7 @@
       "base": 0,
       "per_level_above_first": 0
     },
-    "anvil_cost": 0,
+    "anvil_cost": 1,
     "slots": [
       "offhand"
     ],
@@ -24,7 +24,7 @@
           "min_duration": 1,
           "max_duration": 1,
           "min_amplifier": 0,
-          "max_amplifier": 0
+          "max_amplifier": 1
         }
       }
     ]
