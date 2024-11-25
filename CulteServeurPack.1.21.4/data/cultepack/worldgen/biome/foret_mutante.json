@@ -50,7 +50,7 @@
 		[],
 		["cultepack:ile_arbre"],
 		["minecraft:sea_pickle"],
-		["cultepack:mutant_stone_arbre"],
+		["cultepack:mutant_stone_arbre","cultepack:mutant_stone_arbre_2"],
 		[
 		"flower_flower_forest",
 		"flower_forest_flowers",
