@@ -12,7 +12,7 @@ execute if score @s rdmevent matches 60000 run function cultepack:events/event/1
 execute if score @s rdmevent matches 72001 run scoreboard players set @s rdmevent 0
 
 #30 minutes
-
+execute if score @s rdmevent matches 36000 run function cultepack:events/event/30min
 
 
 #1h

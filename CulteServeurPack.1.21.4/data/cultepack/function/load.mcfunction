@@ -113,6 +113,6 @@ bossbar set wither_dechu players @e[type=player]
 
 
 difficulty hard
-tellraw @a {"text":"DataPack du Culte Chargé. 1.21.2","color":"red","bold":true}
+tellraw @a {"text":"DataPack du Culte Chargé. 1.21.4","color":"red","bold":true}
 tellraw @a {"text":"Ressource Pack Nécessaire.","color":"red","bold":true}
 tellraw @a {"text":"-ArkyZax.","color":"gold","bold":true}
